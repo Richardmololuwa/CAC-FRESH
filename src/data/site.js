@@ -18,8 +18,8 @@ export const church = {
 export const socials = {
   instagram: "https://www.youtube.com/redirect?event=channel_description&redir_token=QUlxb01IWm9GZy1oSUs4a2hHXzBYQlJxWGdabHxBSTVJdTVzWXJvaHpPdDZQV0VPNjY4cFY2OGd3ek13Sk9rYjVQNEd0YnBHMFhndFRLRnRHTFRLNEV5OWlHbDMwM3JPc0FVSVZ0RHNJbW90OExwV2ZHWFhqZUxJNU5hUkVKVXlp&q=https%3A%2F%2Fwww.instagram.com%2Ffreshapostolicpowerministry%2F",
   facebook: "https://www.youtube.com/redirect?event=channel_description&redir_token=QUlxb01IWTNwaVdFOFRuMUJ0ZEcwNEtTZTV2NHxBSTVJdTVzR3IxUU5IT0lyam1TaWpBOGdDOU1FS202eEhmLVBVS0Z0SkFhWXBHNjRGMTM0V2FxMkVhZWRMU0lDNVVHYnFLYk12VGl1TG9tWjFhVWczd3V2VU9xeWZ0OWRFOWZ6&q=https%3A%2F%2Fweb.facebook.com%2FApostolicfreshfire",
-  tiktok: "https://tiktok.com/@yourchurch",
-  youtube: "https://youtube.com/@yourchurch",
+  tiktok: "https://www.tiktok.com/@gbolahanbello206?_r=1&_t=ZS-9B1M3bBrS5p",
+  youtube: "https://youtube.com/@freshapostolicpowerministry?si=KDm51nAoO_1tRIM1",
 };
 
 export const pastor = {
@@ -29,8 +29,9 @@ export const pastor = {
   quote:
     "Our desire is simple: that every person who walks through these doors meets Jesus and leaves changed.",
   bio: [
-    "Write a short introduction of the Head Pastor here — his or her calling, years of ministry, and the vision God placed on his or her heart for this church.",
-    "A second paragraph can speak about family, education, and the heart behind the ministry. Edit these lines in src/data/site.js.",
+    "Prophet Gbolahan Bello Moses is the Founder and Head Pastor of CAC Fresh Apostolic Power Ministry. Born into a Muslim family, he encountered Jesus Christ in 1995 and answered God's call into ministry in 1998. Ordained as a Pastor in 1999, he has dedicated his life to preaching the Gospel, winning souls, and transforming lives through the power of God.",
+    "With a passion for spiritual growth and ministry development, he founded Fresh Apostolic Power Ministry in 2011, which has since grown into a ministry committed to prayer, sound biblical teaching, healing, and raising believers firmly grounded in Christ. He also studied Mass Communication through distance learning at The Polytechnic, Ibadan.",
+    "Prophet Gbolahan is married to Pastor Mrs. Funmilayo Bello, also known as Lady Evangelist Funmilayo Bello, and together they are blessed with two children. His vision is to see lives transformed, people delivered from shame and limitations, and a generation of believers prepared for eternity and the second coming of Jesus Christ."
   ],
   milestones: [
     { year: "1998", text: "Called into ministry" },

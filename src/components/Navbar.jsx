@@ -30,9 +30,7 @@ export default function Navbar() {
     <header className={`nav ${scrolled ? "nav--scrolled" : ""}`}>
       <div className="container nav__inner">
         <Link to="/" className="brand" aria-label={church.name}>
-          <span className="brand__mark">
-            <Cross size={22} />
-          </span>
+             <img className="brand__logo" src="logo.jpg" alt="" />
           <span className="brand__name">{church.name}</span>
         </Link>
 

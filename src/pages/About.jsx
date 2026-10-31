@@ -28,13 +28,12 @@ export default function About() {
             <h2>A church that feels like family</h2>
             <Divider />
             <p className="lead">
-              Tell your church’s story here — when it began, how it grew, and what God has done
-              along the way.
+             Founded in 2011 by Prophet Gbolahan Bello Moses, CAC Fresh Apostolic Power Ministry was born out of a passion to see lives transformed through the power of Jesus Christ. What began in rented halls with a small gathering of believers has grown into a thriving ministry dedicated to prayer, worship, biblical teaching, and spiritual transformation.
+
+Inspired by Matthew 18:20, we believe in creating an atmosphere where people can encounter God, grow in their relationship with Christ, and discover His purpose for their lives. From humble beginnings to our present location, God has remained faithful, blessing the ministry with testimonies of healing, answered prayers, restored families, and transformed lives.
             </p>
             <p style={{ color: "var(--muted)" }}>
-              We exist to lead people into a growing relationship with Jesus Christ, to build
-              strong families, and to serve our community with the love of God. Replace this
-              text with your own history and vision in <code>src/pages/About.jsx</code>.
+             Today, our mission remains the same: to bring people to Christ, strengthen families, nurture genuine faith, and raise believers who are firmly grounded in God's Word. At Fresh Apostolic Power Ministry, we welcome everyone, regardless of their background, into a loving family where faith is built, lives are renewed, and everyone has the opportunity to experience a new identity in Christ.
             </p>
           </div>
           <div className="stat-row" style={{ background: "var(--emerald-deep)", padding: "44px 24px", borderRadius: 14, boxShadow: "0 0 0 2px var(--gold)", outline: "6px solid var(--ivory)", outlineOffset: -1 }}>

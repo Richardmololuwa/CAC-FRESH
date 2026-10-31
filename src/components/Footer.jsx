@@ -9,9 +9,7 @@ export default function Footer() {
       <div className="container footer__grid">
         <div>
           <div className="brand brand--light">
-            <span className="brand__mark">
-              <Cross size={22} />
-            </span>
+               <img className="brand__logo" src="/logo.jpg" alt="" />
             <span className="brand__name">{church.name}</span>
           </div>
           <p className="footer__text">{church.tagline}.</p>
