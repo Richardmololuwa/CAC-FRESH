@@ -33,7 +33,7 @@ export default function Contact() {
               <div><b>Address</b>{church.address}</div>
               <div><b>Phone</b>{church.phone}</div>
               <div><b>Email</b>{church.email}</div>
-              <div><b>Sunday Services</b>8:00 AM &amp; 10:30 AM</div>
+              <div><b>Sunday Services</b>6:00 AM</div>
             </div>
           </div>
 

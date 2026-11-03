@@ -109,8 +109,26 @@ export const gallery = [
 // e.g. https://www.youtube.com/watch?v=dQw4w9WgXcQ  →  id: "dQw4w9WgXcQ"
 // Videos with an empty id show a poster that links to your channel.
 export const videos = [
-  { title: "Sunday Service — Latest Message", id: "yTXU757xy3UqHoXV", date: "Latest" },
-  { title: "Worship Medley", id: "jTkqmAMUBvzcjz7a", date: "Worship" },
-  { title: "Prophetic Songs", id: "xJ-J_gCCpBM8KbHj", date: "Teaching" },
-  { title: "Prophetic Prayers", id: "70GgsGPiP4ZK9BFu", date: "Highlights" },
+  {
+    title: "Sunday Service — Latest Message",
+    id: "jW7kuqfA9iY",
+    date: "Latest"
+  },
+  {
+    title: "Worship Medley",
+    id: "Ot7hHSGUXjQ",
+    date: "Worship"
+  },
+  {
+    title: "Prophetic Songs",
+    id: "_nj82tDeLKs",
+    date: "Teaching"
+  },
+  {
+    title: "Prophetic Prayers",
+    id: "b5cdS8gc1fg",
+    date: "Highlights"
+  },
 ];
+
+
