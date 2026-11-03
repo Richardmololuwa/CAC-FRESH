@@ -6,10 +6,10 @@
 export const church = {
   name: "CAC FRESH APOSTOLIC POWER DISRICT HQTS",
   short: "CAC FRESH",
-  tagline: "A family of faith, rooted in the Word",
+  tagline: "Sanctuary of Grace and Mercy.",
   verse: "“Taste and see that the Lord is good.”",
   verseRef: "Psalm 34:8",
-  address: "4, Senboye Oladunni street, off baba Awori Creasent Revelation, Bauwa, Lagos State, Nigeria.",
+  address: "4, Senboye Oladunni street, off baba Awori Crescent Revelation, Baruwa, Lagos State, Nigeria.",
   phone: "+234 235 452 75",
   email: "fapmitry3@gmail.com",
   mapEmbed: "", // paste a Google Maps "Embed a map" src URL here (optional)

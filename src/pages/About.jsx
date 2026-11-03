@@ -37,9 +37,9 @@ Inspired by Matthew 18:20, we believe in creating an atmosphere where people can
             </p>
           </div>
           <div className="stat-row" style={{ background: "var(--emerald-deep)", padding: "44px 24px", borderRadius: 14, boxShadow: "0 0 0 2px var(--gold)", outline: "6px solid var(--ivory)", outlineOffset: -1 }}>
-            <div className="stat"><strong>20+</strong><span>Years of grace</span></div>
+            <div className="stat"><strong>15+</strong><span>Years of grace</span></div>
             <div className="stat"><strong>500+</strong><span>Members</span></div>
-            <div className="stat"><strong>12</strong><span>Ministries</span></div>
+            <div className="stat"><strong>6</strong><span>Ministries</span></div>
           </div>
         </div>
       </section>
