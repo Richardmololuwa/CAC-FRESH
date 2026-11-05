@@ -44,7 +44,7 @@ export default function Footer() {
           <h4>Visit Us</h4>
           <ul>
             <li>{church.address}</li>
-            <li>Sundays · 8:00 AM &amp; 10:30 AM</li>
+            <li>Sundays · 6:00 AM</li>
             <li>{church.phone}</li>
             <li>{church.email}</li>
           </ul>

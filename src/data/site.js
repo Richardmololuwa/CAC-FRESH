@@ -10,10 +10,9 @@ export const church = {
   verse: "“Taste and see that the Lord is good.”",
   verseRef: "Psalm 34:8",
   address: "4, Senboye Oladunni street, off baba Awori Crescent Revelation, Baruwa, Lagos State, Nigeria.",
-  phone: "+234 235 452 75",
+  phone: "+2348023545275",
   email: "fapmitry3@gmail.com",
-  mapEmbed: "", // paste a Google Maps "Embed a map" src URL here (optional)
-};
+mapEmbed: "https://www.google.com/maps?q=6.5898662,3.2545919&output=embed",};
 
 export const socials = {
   instagram: "https://www.youtube.com/redirect?event=channel_description&redir_token=QUlxb01IWm9GZy1oSUs4a2hHXzBYQlJxWGdabHxBSTVJdTVzWXJvaHpPdDZQV0VPNjY4cFY2OGd3ek13Sk9rYjVQNEd0YnBHMFhndFRLRnRHTFRLNEV5OWlHbDMwM3JPc0FVSVZ0RHNJbW90OExwV2ZHWFhqZUxJNU5hUkVKVXlp&q=https%3A%2F%2Fwww.instagram.com%2Ffreshapostolicpowerministry%2F",
@@ -92,12 +91,13 @@ export const gallery = [
   { src: "/gallery/children.jpg", caption: "Children's Church", tag: "Family", tone: 2 },
   { src: "/gallery/choir.jpg", caption: "Choir Ministration", tag: "Worship", tone: 1 },
   { src: "/gallery/children (2).jpg", caption: "Children's MInistration", tag: "Outreach", tone: 0 },
-  { src: "/gallery/family4.jpg", caption: "Youth Fellowship", tag: "Family", tone: 2 },
-    { src: "/gallery/family1.jpg", caption: "Youth Fellowship", tag: "Family", tone: 2 },
-  { src: "/gallery/family2.jpg", caption: "Youth Fellowship", tag: "Family", tone: 2 },
-  { src: "/gallery/family3.jpg", caption: "Youth Fellowship", tag: "Family", tone: 2 },
-    { src: "/gallery/family5.jpg", caption: "Youth Fellowship", tag: "Family", tone: 2 },
-  { src: "/gallery/family6.jpg", caption: "Youth Fellowship", tag: "Family", tone: 2 },
+  { src: "/gallery/family4.jpg", caption: "", tag: "Family", tone: 2 },
+  { src: "/gallery/family2.jpg", caption: "", tag: "Family", tone: 2 },
+  { src: "/gallery/family3.jpg", caption: "", tag: "Family", tone: 2 },
+  { src: "/gallery/family5.jpg", caption: "", tag: "Family", tone: 2 },
+  { src: "/gallery/family6.jpg", caption: "", tag: "Family", tone: 2 },
+  { src: "/gallery/ushers.jpg", caption: "Ushers", tag: "Family", tone: 3},
+  { src: "/gallery/media.jpg", caption: "Media Unit", tag: "Family", tone: 3},
 
 
   { src: "/gallery/thanksgiving.jpg", caption: "Thanksgiving Service", tag: "Events", tone: 0 },
@@ -115,19 +115,19 @@ export const videos = [
     date: "Latest"
   },
   {
-    title: "Worship Medley",
+    title: "Evergreen Voices",
     id: "Ot7hHSGUXjQ",
-    date: "Worship"
+    date: "Worship/Paise"
   },
   {
     title: "Prophetic Songs",
     id: "_nj82tDeLKs",
-    date: "Teaching"
+    date: "Prophetic Somgs"
   },
   {
     title: "Prophetic Prayers",
     id: "b5cdS8gc1fg",
-    date: "Highlights"
+    date: "Prayers"
   },
 ];
 
