@@ -1,11 +1,14 @@
 import { Link } from "react-router-dom";
 import { Rays, Divider, Cross } from "../components/Ornament.jsx";
 import { church, pastor, services } from "../data/site.js";
+import UpcomingEvents from "./UpcomingEvents.jsx";
+import CounsellingSupport from "./CounsellingSupport.jsx";
+
 
 const tiles = [
-  { n: "01", title: "About Us", text: "Who we are, what we believe, and the vision that moves us.", to: "/about" },
-  { n: "02", title: "Gallery", text: "Moments of worship, fellowship and joy from our church life.", to: "/gallery" },
-  { n: "03", title: "Watch", text: "Catch up on sermons and worship wherever you are.", to: "/videos" },
+  { n: "", title: "About Us", text: "Who we are, what we believe, and the vision that moves us.", to: "/about" },
+  { n: "", title: "Gallery", text: "Moments of worship, fellowship and joy from our church life.", to: "/gallery" },
+  { n: "", title: "Watch", text: "Catch up on sermons and worship wherever you are.", to: "/videos" },
 ];
 
 export default function Home() {
@@ -102,6 +105,12 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <CounsellingSupport />
+
+      <UpcomingEvents />
+
+      
 
       <section className="section">
         <div className="container cta-band">

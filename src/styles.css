@@ -130,6 +130,379 @@ h3 { font-size: 1.55rem; }
   text-align: center;
 }
 
+
+/* UPCOMING EVENTS */
+
+.events-section {
+  padding: 90px 0;
+  background: #f8f8f6;
+}
+
+.events-heading {
+  text-align: center;
+  max-width: 650px;
+  margin: 0 auto 45px;
+}
+
+.events-heading h2,
+.events-location__info h2 {
+  font-size: clamp(2rem, 4vw, 2.8rem);
+  margin: 12px 0;
+  color: #222;
+}
+
+.events-heading p {
+  color: #666;
+  line-height: 1.7;
+}
+
+.events-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.event-card {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-direction: column;
+}
+
+.event-card__image,
+.event-card__placeholder {
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+}
+
+.event-card__placeholder {
+  background: linear-gradient(135deg, #173b32, #b68b35);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 25px;
+}
+
+.event-card__placeholder span {
+  font-size: 12px;
+  letter-spacing: 3px;
+  margin-bottom: 12px;
+}
+
+.event-card__placeholder h3 {
+  font-size: 22px;
+}
+
+.event-card__content {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: flex-start;
+}
+
+.event-card__date {
+  color: #b68b35;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.event-card__content h3 {
+  font-size: 21px;
+  margin: 12px 0 8px;
+  color: #222;
+}
+
+.event-card__time {
+  font-weight: 600;
+  color: #555;
+}
+
+.event-card__content p {
+  line-height: 1.7;
+  color: #666;
+}
+
+.event-card__content .btn {
+  margin-top: auto;
+  text-decoration: none;
+}
+
+/* EVENT LOCATION */
+
+.events-location {
+  display: grid;
+  grid-template-columns: 0.8fr 1.2fr;
+  gap: 40px;
+  align-items: center;
+  margin-top: 85px;
+}
+
+.events-location__info p {
+  color: #666;
+  line-height: 1.8;
+  margin-bottom: 25px;
+}
+
+.events-location__info .btn {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.events-location__map {
+  height: 350px;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #eee;
+}
+
+.events-location__map iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 900px) {
+  .events-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .events-location {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .events-section {
+    padding: 65px 0;
+  }
+
+  .events-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .event-card__image,
+  .event-card__placeholder {
+    height: 210px;
+  }
+
+  .events-location {
+    margin-top: 60px;
+    gap: 25px;
+  }
+
+  .events-location__map {
+    height: 280px;
+  }
+}
+
+/* COUNSELLING & PRAYER SUPPORT */
+
+.counselling-section {
+  padding: 100px 0;
+  background: #fff;
+}
+
+.counselling-container {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 65px;
+  align-items: center;
+}
+
+.counselling-content h2 {
+  color: #222;
+  font-size: clamp(2rem, 4vw, 2.8rem);
+  line-height: 1.2;
+  margin: 15px 0 25px;
+}
+
+.counselling-content > p {
+  color: #666;
+  line-height: 1.9;
+  margin-bottom: 18px;
+}
+
+.counselling-content strong {
+  color: #173b32;
+}
+
+.counselling-highlight {
+  background: #f8f6ef;
+  border-left: 4px solid #b68b35;
+  padding: 22px 25px;
+  margin: 30px 0;
+}
+
+.counselling-highlight h3 {
+  color: #173b32;
+  margin-bottom: 10px;
+}
+
+.counselling-highlight p {
+  color: #555;
+  line-height: 1.8;
+  margin: 0;
+}
+
+.counselling-assurance {
+  margin-bottom: 28px;
+}
+
+.counselling-assurance p {
+  color: #555;
+  line-height: 1.7;
+  margin-bottom: 8px;
+}
+
+.counselling-assurance h3 {
+  color: #b68b35;
+  margin-top: 18px;
+}
+
+.counselling-btn {
+  display: inline-block;
+  text-decoration: none;
+}
+
+/* COUNSELLING VISUAL PANEL */
+
+.counselling-visual {
+  min-height: 480px;
+  background: linear-gradient(
+    145deg,
+    #173b32,
+    #245c4b
+  );
+  border-radius: 16px;
+  padding: 45px 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+
+.counselling-visual::before,
+.counselling-visual::after {
+  content: "";
+  position: absolute;
+  width: 240px;
+  height: 240px;
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.counselling-visual::before {
+  top: -120px;
+  right: -100px;
+}
+
+.counselling-visual::after {
+  bottom: -130px;
+  left: -110px;
+}
+
+.counselling-visual__inner {
+  position: relative;
+  z-index: 1;
+  max-width: 390px;
+  width: 100%;
+}
+
+.counselling-cross {
+  display: block;
+  font-size: 68px;
+  line-height: 1;
+  color: #d7b45c;
+  margin-bottom: 30px;
+}
+
+.counselling-visual__inner h3 {
+  color: #ffffff !important;
+  font-size: clamp(27px, 3vw, 35px);
+  line-height: 1.3;
+  font-weight: 700;
+  margin: 0 0 20px;
+}
+
+.counselling-visual__inner p {
+  color: #f1f5f2;
+  font-size: 16px;
+  line-height: 1.9;
+  margin-bottom: 30px;
+}
+
+.counselling-verse {
+  display: block;
+  color: #e7c778;
+  font-size: 16px;
+  font-style: italic;
+  line-height: 1.8;
+}
+
+.counselling-visual__inner small {
+  display: block;
+  margin-top: 14px;
+  color: #ffffff;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 600px) {
+  .counselling-visual {
+    min-height: 380px;
+    padding: 35px 24px;
+  }
+
+  .counselling-visual__inner h3 {
+    font-size: 27px;
+  }
+
+  .counselling-visual__inner p {
+    font-size: 15px;
+  }
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 900px) {
+  .counselling-container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .counselling-visual {
+    min-height: 380px;
+  }
+}
+
+@media (max-width: 600px) {
+  .counselling-section {
+    padding: 65px 0;
+  }
+
+  .counselling-visual {
+    min-height: 350px;
+    padding: 25px;
+  }
+
+  .counselling-visual__inner h3 {
+    font-size: 27px;
+  }
+}
+
 @media (max-width: 768px) {
   .map {
     height: 300px;
