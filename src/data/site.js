@@ -11,7 +11,7 @@ export const church = {
   verseRef: "Psalm 34:8",
   address: "4, Senboye Oladunni street, off baba Awori Crescent Revelation, Baruwa, Lagos State, Nigeria.",
   phone: "+2348023545275",
-  email: "fapmitry3@gmail.com",
+  email: "fapminitry3@gmail.com",
 mapEmbed: "https://www.google.com/maps?q=6.5898662,3.2545919&output=embed",};
 
 export const socials = {

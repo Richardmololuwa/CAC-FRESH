@@ -9,7 +9,7 @@ export const events = [
     description:
       "3 Days Special Interdenominational prayers for Matured Singles.",
     image: "/images/events/ev1.jpg",
-    registrationUrl: "https://forms.gle/REPLACE_WITH_FORM_ID",
+    registrationUrl: "https://forms.gle/tisenjuYhzZkSxqz8",
   },
 
   {
@@ -20,6 +20,6 @@ export const events = [
     description:
       "Before this time Next year is a yearly interdenominational prayer for the church.Its's been running for 15 years now.We have had a great number of testemonies.Join us for this year's edition.",
     image: "/images/events/ev2.jpg",
-    registrationUrl: "https://forms.gle/REPLACE_WITH_FORM_ID",
+    registrationUrl: "https://forms.gle/tisenjuYhzZkSxqz8",
   },
 ];
