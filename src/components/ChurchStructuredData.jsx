@@ -8,6 +8,8 @@ const churchSchema = {
   name: church.name,
   alternateName: church.short,
   url: "https://cacfresh.org/",
+  logo: "https://cacfresh.org/LOGO.png",
+image: "https://cacfresh.org/LOGO.png",
   description:
     "CAC Fresh Apostolic Power Ministry is a Christian church in Baruwa, Lagos, Nigeria, committed to worship, prayer, biblical teaching and spiritual growth.",
   foundingDate: "2011",
