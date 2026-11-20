@@ -19,9 +19,9 @@ export default function SEO({
     description ||
     "Welcome to CAC Fresh Apostolic Power District Headquarters. Join us for worship, prayer, fellowship and spiritual growth.";
 
-  const imageUrl = image
-    ? `${SITE_URL}${image}`
-    : null;
+const imageUrl = image
+  ? `${SITE_URL}${image}`
+  : `${SITE_URL}/LOGO.png`;
 
   return (
     <Helmet>
@@ -42,8 +42,7 @@ export default function SEO({
       )}
 
       {/* Twitter / X */}
-      <meta name="twitter:card" content={imageUrl ? "summary_large_image" : "summary"} />
-      <meta name="twitter:title" content={pageTitle} />
+<meta name="twitter:card" content="summary" />      <meta name="twitter:title" content={pageTitle} />
       <meta name="twitter:description" content={pageDescription} />
 
       {imageUrl && (
