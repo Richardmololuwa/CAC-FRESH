@@ -2,12 +2,18 @@ import { Link } from "react-router-dom";
 import PageHero from "../components/PageHero.jsx";
 import { Rays } from "../components/Ornament.jsx";
 import { pastor } from "../data/site.js";
+import SEO from "../components/SEO.jsx";
 
 export default function Pastor() {
   const initial = pastor.name.replace(/^(Pastor|Rev\.?|Dr\.?|Apostle|Bishop)\s+/i, "").charAt(0) || "P";
 
   return (
     <>
+    <SEO
+  title="Our Founder and Head Pastor"
+  description="Meet Prophet Gbolahan Bello Moses, Founder and Head Pastor of CAC Fresh Apostolic Power Ministry. Learn about his ministry, vision and commitment to spreading the Gospel."
+  path="/pastor"
+/>
       <PageHero eyebrow={pastor.title} title="Meet our Head Pastor" image="/hero/headpastor.jpg" />
 
       <section className="section">

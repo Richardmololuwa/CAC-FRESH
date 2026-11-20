@@ -1,6 +1,7 @@
 import PageHero from "../components/PageHero.jsx";
 import { Divider } from "../components/Ornament.jsx";
 import { church, values } from "../data/site.js";
+import SEO from "../components/SEO.jsx";
 
 const beliefs = [
   "One God in three persons: Father, Son and Holy Spirit",
@@ -14,6 +15,11 @@ const beliefs = [
 export default function About() {
   return (
     <>
+    <SEO
+  title="About Us"
+  description="Learn about CAC Fresh Apostolic Power District Headquarters, our history, beliefs, mission and vision. Discover a church committed to worship, prayer, fellowship and spiritual growth."
+  path="/about"
+/>
       <PageHero
         eyebrow="About Us"
         title="Our story & our faith"

@@ -1,10 +1,16 @@
 import { Link } from "react-router-dom";
 import PageHero from "../components/PageHero.jsx";
 import { services, church } from "../data/site.js";
+import SEO from "../components/SEO.jsx";
 
 export default function Services() {
   return (
     <>
+      <SEO
+  title="Services"
+  description="Join us for worship services at CAC Fresh Apostolic Power District Headquarters. Experience inspiring praise, prayer, and Bible teaching in a welcoming community."
+  path="/services"
+/>
       <PageHero
         eyebrow="Services"
         title="Gather with us"

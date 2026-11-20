@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { Rays, Divider, Cross } from "../components/Ornament.jsx";
 import { church, pastor, services } from "../data/site.js";
 import UpcomingEvents from "./UpcomingEvents.jsx";
+import SEO from "../components/SEO.jsx";
 import CounsellingSupport from "./CounsellingSupport.jsx";
 
 
@@ -16,6 +17,11 @@ export default function Home() {
 
   return (
     <>
+    <SEO
+  title="Welcome"
+  description="Welcome to CAC Fresh Apostolic Power District Headquarters. Join us in Lagos for inspiring worship, prayer, Bible teaching, fellowship and spiritual growth."
+  path="/"
+/>
       <section className="hero" style={{ "--hero-img": "url(/hero/home.jpg)" }}>
         <Rays />
         <div className="container hero__inner">

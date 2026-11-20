@@ -1,9 +1,14 @@
-
+import SEO from "../components/SEO.jsx";
 import { useState } from "react";
 import PageHero from "../components/PageHero.jsx";
 import { church } from "../data/site.js";
 
 export default function Contact() {
+  <SEO
+    title="Contact Us"
+    description="Get in touch with CAC Fresh Apostolic Power District Headquarters. Have questions, prayer requests, or testimonies? Send us a message."
+    path="/contact"
+  />
   const [status, setStatus] = useState("idle");
 
   const onSubmit = async (e) => {

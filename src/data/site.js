@@ -4,7 +4,7 @@
 // ─────────────────────────────────────────────────────────────
 
 export const church = {
-  name: "CAC FRESH APOSTOLIC POWER DISRICT HQTS",
+  name: "CAC FRESH APOSTOLIC POWER DISRICT HEADQUARTERS",
   short: "CAC FRESH",
   tagline: "Sanctuary of Grace and Mercy.",
   verse: "“Taste and see that the Lord is good.”",

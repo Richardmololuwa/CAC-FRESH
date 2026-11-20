@@ -6,7 +6,8 @@ import { church } from "../data/site.js";
 const links = [
   { to: "/", label: "Home" },
   { to: "/about", label: "About" },
-  { to: "/pastor", label: "Head Pastor" },
+  { to: "/pastor", label: "Founder" },
+  { to: "/ministries", label: "Ministries"},
   { to: "/services", label: "Services" },
   { to: "/gallery", label: "Gallery" },
   { to: "/videos", label: "Watch" },
@@ -30,7 +31,7 @@ export default function Navbar() {
     <header className={`nav ${scrolled ? "nav--scrolled" : ""}`}>
       <div className="container nav__inner">
         <Link to="/" className="brand" aria-label={church.name}>
-             <img className="brand__logo" src="logo.jpg" alt="" />
+             <img className="brand__logo" src="LOGO.png" alt="" />
           <span className="brand__name">{church.name}</span>
         </Link>
 
